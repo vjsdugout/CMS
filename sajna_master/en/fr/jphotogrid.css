@@ -1,0 +1,17 @@
+#gallery{
+float: left;
+padding-top: -20px;
+}
+
+#pg { width: 580px; height: 440px; background: #220303; padding: 20px; }
+#pg li { position: relative;  list-style: none; width: 185px; height: 127px; overflow: hidden; float: left; z-index: 0; opacity: .3; }
+#pg li.active { opacity: 1; }
+#pg li.selected { opacity: 1; z-index: 50; -moz-box-shadow: 0px 0px 10px #fff; -webkit-box-shadow: 0px 0px 10px #fff; }
+#pg li img { display: block; width: 100%;  }
+#pg li p { color: white; margin: 10px 0; font-size: 12px; }
+#rgt_Gal{
+float:right;
+}
+#rgt_Gal img{
+width: 260px;
+}

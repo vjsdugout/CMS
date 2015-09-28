@@ -1,0 +1,342 @@
+html, body
+{
+	margin: 0%;
+	padding: 0%;
+	height: 160%;
+}
+h2, h3, p
+{
+	padding:0;
+	margin: 0;
+}
+@font-face
+{
+	font-family: custom;
+	src : url("YANONE/YanoneKaffeesatz-Light.otf");
+}
+
+@font-face
+{
+	font-family: custom2;
+	src : url("lobster/Lobster.otf");
+}
+#wrapper
+{
+	height: 100%;
+	font-family: custom;
+}
+
+#menu
+{
+	height:10%;
+	width:100%;
+	background: url("images/img01.jpg");
+	border-bottom: solid 1px #222628;
+	box-shadow: inset 1px -1px 0px 0px #3E484A;
+}
+
+#content
+{
+	height: 60%;
+	background: url("images/img04.png");
+}
+
+#footer
+{
+	height: 30%;
+	width:100%;
+	background: url("images/img03.jpg");
+}
+
+#inside_content
+{
+	height:90%;
+	width: 90%;
+	display: inline-block;
+	margin: 3.5% 5%;
+}
+
+#inside_content > div
+{
+	height: 100%;
+	float: left;
+}
+
+#mid_col, .side_col div, #main_content
+{
+	box-shadow:2px 2px 2px 1px rgba(128,128,128,0.1);
+}
+
+#mid_col
+{
+	margin: 0% 2%;
+	width: 56%;
+	background: #fff;
+}
+
+#mid_col h2, #main_content h2
+{
+	margin: 6% 5% 0% 5%;
+	color: #373f42;
+	font-size: 2em;
+	font-weight: 100;
+}
+
+#mid_col h3,#main_content h3
+{
+	margin: 1% 5% 4% 5%;
+	color: #96a9b5;
+	font-size: 1.4em;
+	font-weight: 100;
+}
+
+#mid_col p, #main_content p
+{
+	margin: 6% 5% 3% 5%;
+	font-size: 1.2em;
+	line-height: 1.8em;
+	font-weight: 100;
+}
+
+#mid_col p:nth-child(3)
+{
+	margin-top: 10%;
+}
+
+.side_col
+{
+	width: 20%;
+}
+
+.side_col div:first-child , .side_col div:last-child
+{	
+	height: 48%;
+	margin-bottom: 10%;
+	width: 100%;
+	background: #fff;
+}
+
+.side_col div h2
+{
+	color: #373f42;
+	font-size: 2em;
+	font-weight: 100;
+	padding: 9%;
+	padding-left: 12%;
+}
+
+.side_col p
+{
+	font-size: 1em;
+	line-height: 2em;
+	font-weight: 100;
+	padding-left: 12%;
+	padding-right: 10%;
+}
+
+.side_col ul
+{
+	list-style: none;
+	margin-top: 5%;
+	margin-left: 12%;
+	padding-left: 0%;
+	margin-right: 12%;
+}
+
+.side_col ul li
+{
+	padding: 5% 0%;
+	border-bottom: solid 1px #e2e6e8;
+}
+
+.side_col ul li:last-child
+{
+	border-bottom: none;
+}
+
+.side_col a
+{
+	color: #ED391B;
+	font-size: 1.1em;
+}
+
+.side_col div ul:nth-child(2) li
+{
+	padding-top: 12%;
+}
+.side_col div ul:nth-child(2) li:first-child
+{
+	padding-top: 4%;
+}
+
+#main_content
+{
+	width: 78%;
+	height: 100%;
+	margin-right: 2%;
+	background: #fff;
+}
+
+#main_content p
+{
+	font-size: 1.1em;
+	margin-top: 3%;
+}
+#main_content h2
+{
+	margin-top: 6%;
+}
+
+
+
+
+
+
+#menu div
+{
+	height: 50%;
+	float: left;
+	margin-top: 4%;
+}
+#logo
+{
+	width: 30%;
+}
+
+#logo h1
+{
+	font-family: custom2;
+	color: #fff;
+	margin-left: 20%;
+	font-size: 2.5em;
+	font-weight: 600;
+}
+
+#menubar
+{
+	width: 70%;
+}
+#menubar ul
+{
+	list-style: none;
+}
+
+#menubar ul li
+{
+	float: left;
+	margin-right: 4%;
+	margin-top: 20px;
+}
+
+#menubar ul li:first-child
+{
+	margin-left: 30%;
+}
+
+#menubar ul li a
+{
+	text-decoration: none;
+	color: #c6c8c8;
+	font-size: 160%;
+}
+
+#menubar ul li a:hover
+{
+	color: #fff;
+}
+
+#links
+{
+	height: 70%
+}
+
+#col1, #col2
+{
+	height: 100%;
+	width: 65%;
+	float:left;
+	color: #546b76;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.5)
+}
+
+#col1 h2 , #col2 h2
+{
+	margin-left: 5%;
+	margin-top: 6%;
+	margin-bottom: 4%;
+	color: #212f35;
+	font-size: 1.2 em;
+	font-weight: 300;
+}
+
+#col1 ul
+{
+	margin-top: -2%;
+	float: left;
+	list-style: none;
+}
+
+#col1 ul li
+{
+	border-bottom: solid 1px #b5bec3;
+	border-top: solid 1px #e0e4e6;
+	padding-top: 10%;
+	padding-bottom: 8%;
+	padding-right: 15%;
+}
+
+#col1 ul li:first-child
+{
+	border-top: none;
+} 
+
+#col1 ul li:last-child
+{
+	border-bottom: none;
+}
+
+#col1 ul a, #col2 p
+{
+	color: #546b76;
+}
+
+#col1 ul a:hover
+{
+	text-decoration: none;
+}
+
+#col2
+{
+	height: 100%;
+	width: 35%;
+	float:left;
+	text-align: justify;
+}
+
+#col2 h2
+{
+	margin : 12% 0 0 0;
+}
+
+#col2 p
+{
+	margin: 5% 10% 0 0;
+	line-height: 2em;
+	font-size: 1.1em;
+}
+
+#credits
+{
+	border-top: solid 1px #b5bec3;
+	box-shadow: inset 0px 1px 0px 0px #e0e4e7;
+	color: #8d9ca3;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#credits span
+{
+	display: inline-block;
+	margin-top: 4%;
+}
